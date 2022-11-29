@@ -1,0 +1,36 @@
+.qr-section {
+    background-color:  hsl(0, 0%, 100%);
+    margin: auto;
+    width: 350px;
+    padding: 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    &__title {
+        color:hsl(218, 44%, 22%);
+        font-size: 1.5em;
+        font-weight: 700;
+        font-family: 'Outfit', sans-serif;
+        width: 300px;
+        margin: auto;
+        padding: 10px;
+        
+    }    
+    
+    &__image {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    &__paragraph {
+        color:hsl(220, 15%, 55%);
+        font-family: 'Outfit', sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+    }
+}

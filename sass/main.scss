@@ -5,10 +5,14 @@
 // 2. Vendors
 
 // 3. Base stuff
+@use "base/fonts";
+@use "base/reset";
 
 // 4. Layout-related sections
 
 // 5. Components
+@use 'components/attribution';
+@use 'components/qr-section';
 
 // 6. Page-specific styles
 
